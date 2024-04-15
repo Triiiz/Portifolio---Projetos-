@@ -1,0 +1,1 @@
+Projeto realizado no primeiro ano do ensino médio do curso Técnico em Automação Industrial no IFES. O objetivo do código é criar um simulador de estufa. Temos sensor de temperatura, sensor de localização, sensor de iluminação e ao criar um algoritmo que interage entre si a fim retornar respostas ao usuário.
