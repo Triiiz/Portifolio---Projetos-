@@ -21,4 +21,4 @@
   - Usamos o **display LCD** para mostrar ao usuário o estado da tempratura. O sensor de espaço indica invasores sejam humanos ou animais a patir de uma determinada posição do sensor a entidade é enviado um comando de ligar o buzzer silizando um sinal sonoro. O Arduino é responsável por lidar com toda a parte lógica considerando claro os comandos dados pelo codígo escrito em C++.
 - Conclusão: Um projeto bem simples usado para solidificar os conhecimentos básicos voltados tanto a sensores industriais e a um uso básico de C++ para controlar e simular projetos reais. As partes voltadas a conceitos de circuitos elétricos seram omitidas da descrição, estando aberto a contato para qualquer dúvida.
 - Projeto elétrico: Segue abaixo o esquema usando uma notação elétrica e não viva (interativa) como o Tinkercard
-- <img src="projeto_eletrico.png">
+  <img src="projeto_eletrico.png">
