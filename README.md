@@ -15,10 +15,12 @@
    - Buzzer
    - Display LCD
    - LDR
-- Explicação do código: As portas do Arduino para alimentar os sensores e também para realizar os comandos configurados.
-  - **Monitoramento de tempo**: A ideia é de utilizar o **LDR** para acender os Leds brancos, caso esteja de noite eles serão acessos.
-  - A seguir temos configurações para a temperatura acima de 20 graus definimos como **temperatura alta** o led vermelho é ligado, abaixo de 10 graus **temperatura baixa** o led azul é ligado e por final o intervalo (10,20) seria onde ambos os leds vermelho e azul estariam desligados indicando a temperatura ideal.
-  - O **display LCD** é usado para mostrar ao usuário o estado da tempratura. O sensor de espaço indica invasores sejam humanos ou animais a patir de uma determinada posição do sensor a entidade é enviado um comando de ligar o buzzer silizando um sinal sonoro. O Arduino é responsável por lidar com toda a parte lógica considerando claro os comandos dados pelo codígo escrito em C++.
-- Conclusão: Um projeto usado para solidificar os conhecimentos básicos voltados tanto a sensores industriais e a um uso básico de C++ para controlar e simular projetos reais. As partes voltadas a conceitos de circuitos elétricos seram omitidas da descrição, estando aberto a contato para qualquer dúvida.
+- Funcionamento do código: As portas do Arduino são usadas para alimentar os sensores e também para realizar os comandos configurados.
+  - Monitoramento de tempo: A ideia é de utilizar o LDR para acender os LEDs brancos, caso seja noite. Configurações para a temperatura: acima de 20 graus definimos como temperatura alta. Nessa condição, o LED vermelho é ligado.
+  - Abaixo de 10 graus a temperatura é considerada baixa e, assim, o LED azul é ligado.
+No intervalo (10,20) ambos os LEDs (vermelho e azul) estão desligados, o que indicia que a temperatura é ideal.
+  - O display LCD é usado para mostrar ao usuário o estado da temperatura.
+  - O sensor de espaço indica invasores (humanos ou animais): a patir de uma determinada posição do sensor é enviado um comando de ligar o buzzer, que emite um sinal sonoro. O Arduino é responsável por lidar com toda a parte lógica considerando claro os comandos dados pelo codígo escrito em C++.
+- Conclusão: Este projeto foi usado para solidificar os conhecimentos básicos voltados tanto a sensores industriais e ao básico de C++, com o objetivo de controlar e simular projetos reais. As partes voltadas a conceitos de circuitos elétricos serão omitidas da descrição, estando aberto a contato para qualquer dúvida.
 - Projeto elétrico:
   <img src="projeto_eletrico.png">
