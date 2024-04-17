@@ -16,8 +16,8 @@
    - Display LCD
    - LDR
 - Funcionamento do código: As portas do Arduino são usadas para alimentar os sensores e também para realizar os comandos configurados.
-  - Monitoramento de tempo: A ideia é de utilizar o LDR para acender os LEDs brancos, caso seja noite. Configurações para a temperatura: acima de 20 graus definimos como temperatura alta. Nessa condição, o LED vermelho é ligado.
-  - Abaixo de 10 graus a temperatura é considerada baixa e, assim, o LED azul é ligado.
+  - Monitoramento de tempo: A ideia é de utilizar o LDR para acender os LEDs brancos, caso seja noite.
+  - Configurações para a temperatura: acima de 20 graus definimos como temperatura alta. Nessa condição, o LED vermelho é ligado. Abaixo de 10 graus a temperatura é considerada baixa e, assim, o LED azul é ligado.
 No intervalo (10,20) ambos os LEDs (vermelho e azul) estão desligados, o que indicia que a temperatura é ideal.
   - O display LCD é usado para mostrar ao usuário o estado da temperatura.
   - O sensor de espaço indica invasores (humanos ou animais): a patir de uma determinada posição do sensor é enviado um comando de ligar o buzzer, que emite um sinal sonoro. O Arduino é responsável por lidar com toda a parte lógica considerando claro os comandos dados pelo codígo escrito em C++.
